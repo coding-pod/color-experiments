@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity {
  		
  		// add touch event to frame
 		mFrame = (FrameLayout) findViewById(R.id.container);
-		mFrame.setEnabled(false);
+		//mFrame.setEnabled(true);
 		mFrame.setOnTouchListener(new View.OnTouchListener() {
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
@@ -74,6 +74,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
 	protected void onResume() {
 		super.onResume();
+		
+		// enable frame
+		mFrame.setEnabled(true);
 		
 	}
 
