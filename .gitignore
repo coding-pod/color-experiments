@@ -23,3 +23,17 @@ color-id/ColorID/project.properties
 *.properties
 
 color-id/ColorID/project.properties
+
+color-id/ColorID/bin/classes.dex
+
+color-id/ColorID/bin/ColorID.apk
+
+*.jar
+
+color-id/ColorID/bin/res/crunch/drawable-mdpi/ic_launcher.png
+
+color-id/ColorID/bin/res/crunch/drawable-hdpi/ic_launcher.png
+
+color-id/ColorID/bin/res/crunch/drawable-xhdpi/ic_launcher.png
+
+color-id/ColorID/bin/resources.ap_
